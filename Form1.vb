@@ -12,6 +12,7 @@
             FormSplash.Close()
             Dim FormLogin = New FormLoginScreen()
             FormLogin.Show()
+            Me.Close()
         End If
 
     End Sub

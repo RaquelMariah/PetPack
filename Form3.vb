@@ -3,7 +3,9 @@
 
     End Sub
 
-    Private Sub VendasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VendasToolStripMenuItem.Click
 
+    Private Sub SairToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SairToolStripMenuItem.Click
+        Me.Close()
+        'Inserir dialog p/ confirmar ação
     End Sub
 End Class
