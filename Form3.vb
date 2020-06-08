@@ -88,4 +88,9 @@
         Dim FormDescFunc = New FormDescFuncionario()
         FormDescFunc.Show()
     End Sub
+
+    Private Sub RelatóriosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RelatóriosToolStripMenuItem.Click
+        Dim FormRelatAtend = New FormRelatorioAtendimento()
+        FormRelatAtend.Show()
+    End Sub
 End Class
