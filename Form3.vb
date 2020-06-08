@@ -39,4 +39,24 @@
         Dim FormTabVip = New FormTabPlanoVip()
         FormTabVip.Show()
     End Sub
+
+    Private Sub PróximasConsultasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PróximasConsultasToolStripMenuItem.Click
+        Dim FormProxCons = New FormProximasConsultas()
+        FormProxCons.Show()
+    End Sub
+
+    Private Sub DesmarcarConsultaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DesmarcarConsultaToolStripMenuItem.Click
+        Dim FormDesmarcConsulta = New FormDesmarcarConsulta()
+        FormDesmarcConsulta.Show()
+    End Sub
+
+    Private Sub ReagendarConsultaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReagendarConsultaToolStripMenuItem.Click
+        Dim FormReConsulta = New FormReagendarConsulta()
+        FormReConsulta.Show()
+    End Sub
+
+    Private Sub ConsultarPedidosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPedidosToolStripMenuItem.Click
+        Dim FormConsPedido = New FormConsultarPedidos()
+        FormConsPedido.Show()
+    End Sub
 End Class

@@ -31,3 +31,7 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabConsultaVeterinario.resour
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabTaxiPet.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabPacPromocionais.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabPlanoVip.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormProximasConsultas.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDesmarcarConsulta.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormReagendarConsulta.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarPedidos.resources
