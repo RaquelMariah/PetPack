@@ -93,4 +93,9 @@
         Dim FormRelatAtend = New FormRelatorioAtendimento()
         FormRelatAtend.Show()
     End Sub
+
+    Private Sub AtendimentoEmergencialToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AtendimentoEmergencialToolStripMenuItem.Click
+        Dim FormAtendEmerg = New FormAtendimentoEmergencial()
+        FormAtendEmerg.Show()
+    End Sub
 End Class

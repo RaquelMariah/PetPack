@@ -153,6 +153,12 @@
     <Compile Include="Form20.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form21.Designer.vb">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form3.Designer.vb">
       <DependentUpon>Form3.vb</DependentUpon>
     </Compile>
@@ -250,6 +256,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form20.resx">
       <DependentUpon>Form20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>

@@ -41,3 +41,5 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescConsultaVeterinario.resou
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescTaxiPet.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescPlanoVIP.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescFuncionario.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatorioAtendimento.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormAtendimentoEmergencial.resources
