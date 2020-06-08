@@ -83,7 +83,6 @@
         Dim FormDescVip = New FormDescPlanoVIP()
         FormDescVip.Show()
     End Sub
-
     Private Sub DescontoPFuncionárioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DescontoPFuncionárioToolStripMenuItem.Click
         Dim FormDescFunc = New FormDescFuncionario()
         FormDescFunc.Show()
@@ -93,9 +92,18 @@
         Dim FormRelatAtend = New FormRelatorioAtendimento()
         FormRelatAtend.Show()
     End Sub
-
     Private Sub AtendimentoEmergencialToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AtendimentoEmergencialToolStripMenuItem.Click
         Dim FormAtendEmerg = New FormAtendimentoEmergencial()
         FormAtendEmerg.Show()
+    End Sub
+
+    Private Sub CadastrarClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CadastrarClienteToolStripMenuItem.Click
+        Dim FormCadCliente = New FormCadastroCliente()
+        FormCadCliente.Show()
+    End Sub
+
+    Private Sub ConsultarCadastroToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarCadastroToolStripMenuItem.Click
+        Dim FormConsCad = New FormConsultaCadastro()
+        FormConsCad.Show()
     End Sub
 End Class

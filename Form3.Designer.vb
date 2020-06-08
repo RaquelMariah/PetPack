@@ -240,14 +240,14 @@ Partial Class FormMainScreen
         '
         Me.CadastrarClienteToolStripMenuItem.Image = CType(resources.GetObject("CadastrarClienteToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CadastrarClienteToolStripMenuItem.Name = "CadastrarClienteToolStripMenuItem"
-        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CadastrarClienteToolStripMenuItem.Text = "Cadastrar Cliente"
         '
         'ConsultarCadastroToolStripMenuItem
         '
         Me.ConsultarCadastroToolStripMenuItem.Image = CType(resources.GetObject("ConsultarCadastroToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarCadastroToolStripMenuItem.Name = "ConsultarCadastroToolStripMenuItem"
-        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ConsultarCadastroToolStripMenuItem.Text = "Consultar Cadastro"
         '
         'VendasToolStripMenuItem
@@ -332,11 +332,13 @@ Partial Class FormMainScreen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FormMainScreen"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Pet Pack - Mary's Pet Shop"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
