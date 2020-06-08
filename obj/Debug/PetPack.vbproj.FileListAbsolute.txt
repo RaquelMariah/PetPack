@@ -35,3 +35,9 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormProximasConsultas.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDesmarcarConsulta.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormReagendarConsulta.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarPedidos.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescontoProdutos.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescBanho.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescConsultaVeterinario.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescTaxiPet.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescPlanoVIP.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescFuncionario.resources

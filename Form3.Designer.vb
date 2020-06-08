@@ -240,14 +240,14 @@ Partial Class FormMainScreen
         '
         Me.CadastrarClienteToolStripMenuItem.Image = CType(resources.GetObject("CadastrarClienteToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CadastrarClienteToolStripMenuItem.Name = "CadastrarClienteToolStripMenuItem"
-        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.CadastrarClienteToolStripMenuItem.Text = "Cadastrar Cliente"
         '
         'ConsultarCadastroToolStripMenuItem
         '
         Me.ConsultarCadastroToolStripMenuItem.Image = CType(resources.GetObject("ConsultarCadastroToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarCadastroToolStripMenuItem.Name = "ConsultarCadastroToolStripMenuItem"
-        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.ConsultarCadastroToolStripMenuItem.Text = "Consultar Cadastro"
         '
         'VendasToolStripMenuItem
