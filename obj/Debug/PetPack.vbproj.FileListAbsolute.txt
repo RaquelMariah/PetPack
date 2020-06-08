@@ -43,3 +43,5 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescPlanoVIP.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormDescFuncionario.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatorioAtendimento.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormAtendimentoEmergencial.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormCadastroCliente.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultaCadastro.resources
