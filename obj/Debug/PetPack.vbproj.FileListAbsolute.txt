@@ -27,3 +27,7 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.vbproj.CoreCompileInputs.cache
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.exe
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.xml
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.pdb
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabConsultaVeterinario.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabTaxiPet.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabPacPromocionais.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabPlanoVip.resources

@@ -240,14 +240,14 @@ Partial Class FormMainScreen
         '
         Me.CadastrarClienteToolStripMenuItem.Image = CType(resources.GetObject("CadastrarClienteToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CadastrarClienteToolStripMenuItem.Name = "CadastrarClienteToolStripMenuItem"
-        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.CadastrarClienteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CadastrarClienteToolStripMenuItem.Text = "Cadastrar Cliente"
         '
         'ConsultarCadastroToolStripMenuItem
         '
         Me.ConsultarCadastroToolStripMenuItem.Image = CType(resources.GetObject("ConsultarCadastroToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarCadastroToolStripMenuItem.Name = "ConsultarCadastroToolStripMenuItem"
-        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
+        Me.ConsultarCadastroToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ConsultarCadastroToolStripMenuItem.Text = "Consultar Cadastro"
         '
         'VendasToolStripMenuItem
@@ -317,14 +317,14 @@ Partial Class FormMainScreen
         '
         Me.EditarUsuárioToolStripMenuItem.Image = CType(resources.GetObject("EditarUsuárioToolStripMenuItem.Image"), System.Drawing.Image)
         Me.EditarUsuárioToolStripMenuItem.Name = "EditarUsuárioToolStripMenuItem"
-        Me.EditarUsuárioToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.EditarUsuárioToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.EditarUsuárioToolStripMenuItem.Text = "Editar Usuário"
         '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Image = CType(resources.GetObject("SairToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
         'FormMainScreen
