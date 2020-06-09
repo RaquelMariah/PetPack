@@ -120,4 +120,19 @@
         Dim FormConsEstoque = New FormConsultarVenda()
         FormConsEstoque.Show()
     End Sub
+
+    Private Sub RelatóriosToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles RelatóriosToolStripMenuItem1.Click
+        Dim FormRelatVendas = New FormRelatVendas()
+        FormRelatVendas.Show()
+    End Sub
+
+    Private Sub RecebimentoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RecebimentoToolStripMenuItem.Click
+        Dim FormRecebEst = New FormRecebEstoque()
+        FormRecebEst.Show()
+    End Sub
+
+    Private Sub RelatóriosToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles RelatóriosToolStripMenuItem2.Click
+        Dim FormRelatEstoque = New FormRelatEstoque()
+        FormRelatEstoque.Show()
+    End Sub
 End Class

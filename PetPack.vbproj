@@ -74,6 +74,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormRelatEstoque.Designer.vb">
+      <DependentUpon>FormRelatEstoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelatEstoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecebimentoEstoque.Designer.vb">
+      <DependentUpon>FormRecebimentoEstoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRecebimentoEstoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRelatVendas.Designer.vb">
+      <DependentUpon>FormRelatVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRelatVendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormConsultarEstoque.Designer.vb">
       <DependentUpon>FormConsultarEstoque.vb</DependentUpon>
     </Compile>
@@ -248,6 +266,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormRelatEstoque.resx">
+      <DependentUpon>FormRelatEstoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecebimentoEstoque.resx">
+      <DependentUpon>FormRecebimentoEstoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRelatVendas.resx">
+      <DependentUpon>FormRelatVendas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormConsultarEstoque.resx">
       <DependentUpon>FormConsultarEstoque.vb</DependentUpon>
     </EmbeddedResource>
