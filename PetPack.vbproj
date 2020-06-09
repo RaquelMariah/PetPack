@@ -74,6 +74,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormConsultarEstoque.Designer.vb">
+      <DependentUpon>FormConsultarEstoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarEstoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultarVenda.Designer.vb">
+      <DependentUpon>FormConsultarVenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarVenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistarVenda.Designer.vb">
+      <DependentUpon>FormRegistarVenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistarVenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormSplash.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +248,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormConsultarEstoque.resx">
+      <DependentUpon>FormConsultarEstoque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultarVenda.resx">
+      <DependentUpon>FormConsultarVenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistarVenda.resx">
+      <DependentUpon>FormRegistarVenda.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSplash.resx">
       <DependentUpon>FormSplash.vb</DependentUpon>
     </EmbeddedResource>

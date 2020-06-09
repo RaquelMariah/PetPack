@@ -106,4 +106,18 @@
         Dim FormConsCad = New FormConsultaCadastro()
         FormConsCad.Show()
     End Sub
+
+    Private Sub RegistrarVendaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarVendaToolStripMenuItem.Click
+        Dim FormRegVenda = New FormRegistarVenda()
+        FormRegVenda.Show()
+    End Sub
+
+    Private Sub ConsultarVendaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarVendaToolStripMenuItem.Click
+        Dim FormConsVenda = New FormConsultarVenda()
+        FormConsVenda.Show()
+    End Sub
+    Private Sub ConsultarEstoqueToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarEstoqueToolStripMenuItem.Click
+        Dim FormConsEstoque = New FormConsultarVenda()
+        FormConsEstoque.Show()
+    End Sub
 End Class
