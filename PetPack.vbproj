@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormTabValorExames.Designer.vb">
+      <DependentUpon>FormTabValorExames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabValorExames.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormEditarUsuario.Designer.vb">
       <DependentUpon>FormEditarUsuario.vb</DependentUpon>
     </Compile>
@@ -272,6 +278,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormTabValorExames.resx">
+      <DependentUpon>FormTabValorExames.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEditarUsuario.resx">
       <DependentUpon>FormEditarUsuario.vb</DependentUpon>
     </EmbeddedResource>

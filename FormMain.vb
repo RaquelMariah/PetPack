@@ -140,4 +140,9 @@
         Dim FormEditUser = New FormEditarUsuario()
         FormEditUser.Show()
     End Sub
+
+    Private Sub ExamesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExamesToolStripMenuItem.Click
+        Dim FormTabValExm = New FormTabPrecoExames()
+        FormTabValExm.Show()
+    End Sub
 End Class

@@ -36,6 +36,7 @@ Partial Class FormRelatVendas
         Me.Name = "FormRelatVendas"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Relatório Vendas"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 
     End Sub

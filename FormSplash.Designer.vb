@@ -46,12 +46,12 @@ Partial Class FormSplashScreen
         '
         Me.ProgressBar1.ForeColor = System.Drawing.Color.Green
         Me.ProgressBar1.Location = New System.Drawing.Point(203, 256)
-        Me.ProgressBar1.MarqueeAnimationSpeed = 10
+        Me.ProgressBar1.MarqueeAnimationSpeed = 50
         Me.ProgressBar1.Minimum = 1
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(378, 12)
         Me.ProgressBar1.TabIndex = 3
-        Me.ProgressBar1.Value = 50
+        Me.ProgressBar1.Value = 10
         '
         'Timer1
         '
