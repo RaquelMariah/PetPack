@@ -137,6 +137,7 @@
     End Sub
 
     Private Sub EditarUsuárioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditarUsuárioToolStripMenuItem.Click
-
+        Dim FormEditUser = New FormEditarUsuario()
+        FormEditUser.Show()
     End Sub
 End Class

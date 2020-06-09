@@ -45,3 +45,10 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatorioAtendimento.resource
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormAtendimentoEmergencial.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormCadastroCliente.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultaCadastro.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormEditarUsuario.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatEstoque.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRecebEstoque.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatVendas.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarEstoque.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarVenda.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRegistarVenda.resources
