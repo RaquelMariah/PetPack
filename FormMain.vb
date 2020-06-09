@@ -135,4 +135,8 @@
         Dim FormRelatEstoque = New FormRelatEstoque()
         FormRelatEstoque.Show()
     End Sub
+
+    Private Sub EditarUsuárioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditarUsuárioToolStripMenuItem.Click
+
+    End Sub
 End Class

@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormEditarUsuario.Designer.vb">
+      <DependentUpon>FormEditarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormRelatEstoque.Designer.vb">
       <DependentUpon>FormRelatEstoque.vb</DependentUpon>
     </Compile>
@@ -266,6 +272,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormEditarUsuario.resx">
+      <DependentUpon>FormEditarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRelatEstoque.resx">
       <DependentUpon>FormRelatEstoque.vb</DependentUpon>
     </EmbeddedResource>
