@@ -28,6 +28,7 @@ Partial Class FormMainScreen
         Me.EmergencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VacinasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BanhoETosaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExamesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultaVeterinárioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TaxiPetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PacotesPromocionaisToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -60,7 +61,6 @@ Partial Class FormMainScreen
         Me.SistemaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditarUsuárioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SairToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExamesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -101,6 +101,13 @@ Partial Class FormMainScreen
         Me.BanhoETosaToolStripMenuItem.Name = "BanhoETosaToolStripMenuItem"
         Me.BanhoETosaToolStripMenuItem.Size = New System.Drawing.Size(191, 22)
         Me.BanhoETosaToolStripMenuItem.Text = "Banho e Tosa"
+        '
+        'ExamesToolStripMenuItem
+        '
+        Me.ExamesToolStripMenuItem.Image = CType(resources.GetObject("ExamesToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ExamesToolStripMenuItem.Name = "ExamesToolStripMenuItem"
+        Me.ExamesToolStripMenuItem.Size = New System.Drawing.Size(191, 22)
+        Me.ExamesToolStripMenuItem.Text = "Exames"
         '
         'ConsultaVeterinárioToolStripMenuItem
         '
@@ -327,13 +334,6 @@ Partial Class FormMainScreen
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
         Me.SairToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
-        '
-        'ExamesToolStripMenuItem
-        '
-        Me.ExamesToolStripMenuItem.Image = CType(resources.GetObject("ExamesToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ExamesToolStripMenuItem.Name = "ExamesToolStripMenuItem"
-        Me.ExamesToolStripMenuItem.Size = New System.Drawing.Size(191, 22)
-        Me.ExamesToolStripMenuItem.Text = "Exames"
         '
         'FormMainScreen
         '

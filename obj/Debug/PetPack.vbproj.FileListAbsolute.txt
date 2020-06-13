@@ -52,3 +52,4 @@ C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRelatVendas.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarEstoque.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormConsultarVenda.resources
 C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormRegistarVenda.resources
+C:\workspace-vstudio\PetPack\obj\Debug\PetPack.FormTabPrecoExames.resources
