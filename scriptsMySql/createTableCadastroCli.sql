@@ -1,0 +1,15 @@
+create table cadastroCliente(
+id int auto_increment primary key, 
+nomeCliente varchar(100),
+cpf int(11),
+rgCliente int(10),
+orgao varchar(20),
+dataNascCli datetime,
+telfixo int(10),
+telCel1 int(11),
+telCel2 int(11),
+cep int(8),
+uf varchar(2),
+enderecoCli varchar(100),
+bairro varchar(100),
+cidade varchar(60));

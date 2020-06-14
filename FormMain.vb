@@ -1,6 +1,7 @@
-﻿Public Class FormMainScreen
+﻿
+Public Class FormMainScreen
     Private Sub FormMainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ConnectToMySql()
     End Sub
 
 

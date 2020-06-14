@@ -45,6 +45,9 @@ Partial Class FormTabPlanoVip
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.txt_busca_nome = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,6 +55,7 @@ Partial Class FormTabPlanoVip
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -211,6 +215,29 @@ Partial Class FormTabPlanoVip
         Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
         Me.DataGridViewTextBoxColumn10.ReadOnly = True
         '
+        'ToolStripLabel1
+        '
+        Me.ToolStripLabel1.Name = "ToolStripLabel1"
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(87, 22)
+        Me.ToolStripLabel1.Text = "Digite o Nome:"
+        '
+        'txt_busca_nome
+        '
+        Me.txt_busca_nome.BackColor = System.Drawing.Color.White
+        Me.txt_busca_nome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txt_busca_nome.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txt_busca_nome.Name = "txt_busca_nome"
+        Me.txt_busca_nome.Size = New System.Drawing.Size(100, 25)
+        '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.txt_busca_nome})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(584, 25)
+        Me.ToolStrip1.TabIndex = 3
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
         'FormTabPlanoVip
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -218,6 +245,7 @@ Partial Class FormTabPlanoVip
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(584, 461)
+        Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.TabControl1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormTabPlanoVip"
@@ -230,7 +258,10 @@ Partial Class FormTabPlanoVip
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -256,4 +287,7 @@ Partial Class FormTabPlanoVip
     Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents txt_busca_nome As ToolStripTextBox
+    Friend WithEvents ToolStrip1 As ToolStrip
 End Class

@@ -31,7 +31,7 @@ Partial Class FormEditarUsuario
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(584, 361)
+        Me.ClientSize = New System.Drawing.Size(584, 454)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormEditarUsuario"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

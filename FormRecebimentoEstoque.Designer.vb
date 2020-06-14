@@ -24,8 +24,6 @@ Partial Class FormRecebEstoque
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormRecebEstoque))
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -38,7 +36,6 @@ Partial Class FormRecebEstoque
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txt_cpf_codigo_cliente = New System.Windows.Forms.TextBox()
@@ -68,26 +65,6 @@ Partial Class FormRecebEstoque
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.ForeColor = System.Drawing.Color.Red
-        Me.Label11.Location = New System.Drawing.Point(485, 204)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(34, 13)
-        Me.Label11.TabIndex = 58
-        Me.Label11.Text = "00.00"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.SystemColors.Window
-        Me.Label12.Location = New System.Drawing.Point(308, 204)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(74, 13)
-        Me.Label12.TabIndex = 57
-        Me.Label12.Text = "DESCONTOS"
-        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -101,7 +78,7 @@ Partial Class FormRecebEstoque
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.Button6.Location = New System.Drawing.Point(49, 325)
+        Me.Button6.Location = New System.Drawing.Point(49, 268)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(169, 41)
         Me.Button6.TabIndex = 56
@@ -176,9 +153,9 @@ Partial Class FormRecebEstoque
         Me.Label5.BackColor = System.Drawing.SystemColors.Window
         Me.Label5.Location = New System.Drawing.Point(24, 152)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 13)
+        Me.Label5.Size = New System.Drawing.Size(52, 13)
         Me.Label5.TabIndex = 49
-        Me.Label5.Text = "Plano/Pacote:"
+        Me.Label5.Text = "Produtos:"
         '
         'TextBox2
         '
@@ -197,16 +174,6 @@ Partial Class FormRecebEstoque
         Me.Label4.Size = New System.Drawing.Size(38, 13)
         Me.Label4.TabIndex = 47
         Me.Label4.Text = "Nome:"
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.Button5.Location = New System.Drawing.Point(49, 268)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(169, 41)
-        Me.Button5.TabIndex = 45
-        Me.Button5.Text = "INSERIR DESCONTO"
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
@@ -240,9 +207,9 @@ Partial Class FormRecebEstoque
         Me.Label2.BackColor = System.Drawing.SystemColors.Window
         Me.Label2.Location = New System.Drawing.Point(24, 42)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 13)
+        Me.Label2.Size = New System.Drawing.Size(132, 13)
         Me.Label2.TabIndex = 40
-        Me.Label2.Text = "CPF/Código Cliente: "
+        Me.Label2.Text = "CNPJ/Código Fornecedor:"
         '
         'Button4
         '
@@ -251,7 +218,7 @@ Partial Class FormRecebEstoque
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(239, 41)
         Me.Button4.TabIndex = 39
-        Me.Button4.Text = "FINALIZAR COMPRA"
+        Me.Button4.Text = "FINALIZAR"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
@@ -416,8 +383,6 @@ Partial Class FormRecebEstoque
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(784, 461)
-        Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label10)
@@ -430,7 +395,6 @@ Partial Class FormRecebEstoque
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txt_cpf_codigo_cliente)
@@ -458,9 +422,6 @@ Partial Class FormRecebEstoque
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label12 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Button6 As Button
     Friend WithEvents Label10 As Label
@@ -473,7 +434,6 @@ Partial Class FormRecebEstoque
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents Button5 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents txt_cpf_codigo_cliente As TextBox
