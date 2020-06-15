@@ -48,6 +48,7 @@ Partial Class FormTabelaBanhoTosa
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.txt_busca_nome = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -217,7 +218,7 @@ Partial Class FormTabelaBanhoTosa
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.txt_busca_nome})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.txt_busca_nome, Me.ToolStripButton1})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(584, 25)
@@ -237,6 +238,15 @@ Partial Class FormTabelaBanhoTosa
         Me.txt_busca_nome.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.txt_busca_nome.Name = "txt_busca_nome"
         Me.txt_busca_nome.Size = New System.Drawing.Size(100, 25)
+        '
+        'ToolStripButton1
+        '
+        Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
+        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton1.Name = "ToolStripButton1"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton1.Text = "ToolStripButton1"
         '
         'FormTabelaBanhoTosa
         '
@@ -290,4 +300,5 @@ Partial Class FormTabelaBanhoTosa
     Friend WithEvents ToolStrip1 As ToolStrip
     Friend WithEvents ToolStripLabel1 As ToolStripLabel
     Friend WithEvents txt_busca_nome As ToolStripTextBox
+    Friend WithEvents ToolStripButton1 As ToolStripButton
 End Class

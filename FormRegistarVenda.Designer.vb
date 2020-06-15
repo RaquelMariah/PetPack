@@ -25,16 +25,19 @@ Partial Class FormRegistarVenda
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormRegistarVenda))
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.ToolStripStatusData = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lbl_data = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabelHora = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lbl_hora = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.TimerCaixa = New System.Windows.Forms.Timer(Me.components)
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -54,14 +57,13 @@ Partial Class FormRegistarVenda
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -76,67 +78,6 @@ Partial Class FormRegistarVenda
         Me.StatusStrip1.Size = New System.Drawing.Size(784, 22)
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(206, 173)
-        Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.BackColor = System.Drawing.SystemColors.Window
-        Me.GroupBox1.Controls.Add(Me.Label13)
-        Me.GroupBox1.Controls.Add(Me.Label14)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
-        Me.GroupBox1.Location = New System.Drawing.Point(554, 32)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(207, 236)
-        Me.GroupBox1.TabIndex = 4
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 212)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(47, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "PREÇO:"
-        '
-        'ListView1
-        '
-        Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(297, 32)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(239, 236)
-        Me.ListView1.TabIndex = 5
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.Button1.Location = New System.Drawing.Point(554, 341)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(206, 41)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "PESQUISAR "
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.LimeGreen
-        Me.Button2.Location = New System.Drawing.Point(297, 284)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(239, 41)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "ADICIONAR ITEM"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'ToolStripStatusData
         '
@@ -161,6 +102,96 @@ Partial Class FormRegistarVenda
         Me.lbl_hora.Name = "lbl_hora"
         Me.lbl_hora.Size = New System.Drawing.Size(31, 17)
         Me.lbl_hora.Text = "hora"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(206, 173)
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.SystemColors.Window
+        Me.GroupBox1.Controls.Add(Me.Label13)
+        Me.GroupBox1.Controls.Add(Me.Label14)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Location = New System.Drawing.Point(554, 32)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(207, 236)
+        Me.GroupBox1.TabIndex = 4
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "GroupBox1"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.ForeColor = System.Drawing.Color.Red
+        Me.Label13.Location = New System.Drawing.Point(101, 188)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(13, 13)
+        Me.Label13.TabIndex = 7
+        Me.Label13.Text = "0"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(6, 188)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(43, 13)
+        Me.Label14.TabIndex = 6
+        Me.Label14.Text = "QTDE: "
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.Color.Red
+        Me.Label8.Location = New System.Drawing.Point(101, 212)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(34, 13)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "00.00"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(6, 212)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(47, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "PREÇO:"
+        '
+        'ListView1
+        '
+        Me.ListView1.HideSelection = False
+        Me.ListView1.Location = New System.Drawing.Point(297, 32)
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(239, 240)
+        Me.ListView1.TabIndex = 5
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button1.Location = New System.Drawing.Point(554, 341)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(206, 41)
+        Me.Button1.TabIndex = 7
+        Me.Button1.Text = "PESQUISAR "
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.LimeGreen
+        Me.Button2.Location = New System.Drawing.Point(297, 284)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(239, 41)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "ADICIONAR ITEM"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'TimerCaixa
         '
@@ -330,16 +361,6 @@ Partial Class FormRegistarVenda
         Me.PictureBox2.TabIndex = 27
         Me.PictureBox2.TabStop = False
         '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.Color.Red
-        Me.Label8.Location = New System.Drawing.Point(101, 212)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(34, 13)
-        Me.Label8.TabIndex = 5
-        Me.Label8.Text = "00.00"
-        '
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.SystemColors.InactiveCaption
@@ -354,7 +375,7 @@ Partial Class FormRegistarVenda
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(485, 244)
+        Me.Label9.Location = New System.Drawing.Point(485, 226)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(34, 13)
         Me.Label9.TabIndex = 7
@@ -364,7 +385,7 @@ Partial Class FormRegistarVenda
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.SystemColors.Window
-        Me.Label10.Location = New System.Drawing.Point(308, 244)
+        Me.Label10.Location = New System.Drawing.Point(308, 226)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(98, 13)
         Me.Label10.TabIndex = 6
@@ -374,7 +395,7 @@ Partial Class FormRegistarVenda
         '
         Me.Label11.AutoSize = True
         Me.Label11.ForeColor = System.Drawing.Color.Red
-        Me.Label11.Location = New System.Drawing.Point(485, 220)
+        Me.Label11.Location = New System.Drawing.Point(485, 202)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(34, 13)
         Me.Label11.TabIndex = 30
@@ -384,30 +405,31 @@ Partial Class FormRegistarVenda
         '
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.SystemColors.Window
-        Me.Label12.Location = New System.Drawing.Point(308, 220)
+        Me.Label12.Location = New System.Drawing.Point(308, 202)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(74, 13)
         Me.Label12.TabIndex = 29
         Me.Label12.Text = "DESCONTOS"
         '
-        'Label13
+        'Label15
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.ForeColor = System.Drawing.Color.Red
-        Me.Label13.Location = New System.Drawing.Point(101, 188)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(13, 13)
-        Me.Label13.TabIndex = 7
-        Me.Label13.Text = "0"
+        Me.Label15.AutoSize = True
+        Me.Label15.ForeColor = System.Drawing.Color.Red
+        Me.Label15.Location = New System.Drawing.Point(485, 251)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(34, 13)
+        Me.Label15.TabIndex = 32
+        Me.Label15.Text = "00.00"
         '
-        'Label14
+        'Label16
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(6, 188)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(43, 13)
-        Me.Label14.TabIndex = 6
-        Me.Label14.Text = "QTDE: "
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.SystemColors.Window
+        Me.Label16.Location = New System.Drawing.Point(308, 251)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(48, 13)
+        Me.Label16.TabIndex = 31
+        Me.Label16.Text = "TROCO:"
         '
         'FormRegistarVenda
         '
@@ -416,6 +438,8 @@ Partial Class FormRegistarVenda
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(784, 461)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label9)
@@ -496,4 +520,6 @@ Partial Class FormRegistarVenda
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label16 As Label
 End Class

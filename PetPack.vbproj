@@ -157,42 +157,10 @@
     <Compile Include="FormConsultarPedidos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDescProd.Designer.vb">
-      <DependentUpon>FormDescProd.vb</DependentUpon>
+    <Compile Include="FormSolDesc.Designer.vb">
+      <DependentUpon>FormSolDesc.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormDescProd.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDescBanho.Designer.vb">
-      <DependentUpon>FormDescBanho.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormDescBanho.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDescConsulta.Designer.vb">
-      <DependentUpon>FormDescConsulta.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormDescConsulta.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDescTaxi.Designer.vb">
-      <DependentUpon>FormDescTaxi.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormDescTaxi.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDescVIP.Designer.vb">
-      <DependentUpon>FormDescVIP.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormDescVIP.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDescFuncionario.Designer.vb">
-      <DependentUpon>FormDescFuncionario.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormDescFuncionario.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FormSolDesc.vb" />
     <Compile Include="FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
@@ -322,23 +290,8 @@
     <EmbeddedResource Include="FormConsultarPedidos.resx">
       <DependentUpon>FormConsultarPedidos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDescProd.resx">
-      <DependentUpon>FormDescProd.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDescBanho.resx">
-      <DependentUpon>FormDescBanho.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDescConsulta.resx">
-      <DependentUpon>FormDescConsulta.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDescTaxi.resx">
-      <DependentUpon>FormDescTaxi.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDescVIP.resx">
-      <DependentUpon>FormDescVIP.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDescFuncionario.resx">
-      <DependentUpon>FormDescFuncionario.vb</DependentUpon>
+    <EmbeddedResource Include="FormSolDesc.resx">
+      <DependentUpon>FormSolDesc.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>

@@ -39,12 +39,6 @@ Partial Class FormMainScreen
         Me.ReagendarConsultaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarPedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SolicitarDescontoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProdutosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BanhoETosaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsultaVeterinárioToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TáxiPetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PlanoVIPToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DescontoPFuncionárioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RelatóriosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AtendimentoEmergencialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CadstrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -175,53 +169,10 @@ Partial Class FormMainScreen
         '
         'SolicitarDescontoToolStripMenuItem
         '
-        Me.SolicitarDescontoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProdutosToolStripMenuItem, Me.BanhoETosaToolStripMenuItem1, Me.ConsultaVeterinárioToolStripMenuItem1, Me.TáxiPetToolStripMenuItem, Me.PlanoVIPToolStripMenuItem1, Me.DescontoPFuncionárioToolStripMenuItem})
         Me.SolicitarDescontoToolStripMenuItem.Image = CType(resources.GetObject("SolicitarDescontoToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SolicitarDescontoToolStripMenuItem.Name = "SolicitarDescontoToolStripMenuItem"
         Me.SolicitarDescontoToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
         Me.SolicitarDescontoToolStripMenuItem.Text = "Solicitar Desconto"
-        '
-        'ProdutosToolStripMenuItem
-        '
-        Me.ProdutosToolStripMenuItem.Image = CType(resources.GetObject("ProdutosToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ProdutosToolStripMenuItem.Name = "ProdutosToolStripMenuItem"
-        Me.ProdutosToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ProdutosToolStripMenuItem.Text = "Produtos"
-        '
-        'BanhoETosaToolStripMenuItem1
-        '
-        Me.BanhoETosaToolStripMenuItem1.Image = CType(resources.GetObject("BanhoETosaToolStripMenuItem1.Image"), System.Drawing.Image)
-        Me.BanhoETosaToolStripMenuItem1.Name = "BanhoETosaToolStripMenuItem1"
-        Me.BanhoETosaToolStripMenuItem1.Size = New System.Drawing.Size(205, 22)
-        Me.BanhoETosaToolStripMenuItem1.Text = "Banho e Tosa"
-        '
-        'ConsultaVeterinárioToolStripMenuItem1
-        '
-        Me.ConsultaVeterinárioToolStripMenuItem1.Image = CType(resources.GetObject("ConsultaVeterinárioToolStripMenuItem1.Image"), System.Drawing.Image)
-        Me.ConsultaVeterinárioToolStripMenuItem1.Name = "ConsultaVeterinárioToolStripMenuItem1"
-        Me.ConsultaVeterinárioToolStripMenuItem1.Size = New System.Drawing.Size(205, 22)
-        Me.ConsultaVeterinárioToolStripMenuItem1.Text = "Consulta Veterinário"
-        '
-        'TáxiPetToolStripMenuItem
-        '
-        Me.TáxiPetToolStripMenuItem.Image = CType(resources.GetObject("TáxiPetToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.TáxiPetToolStripMenuItem.Name = "TáxiPetToolStripMenuItem"
-        Me.TáxiPetToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.TáxiPetToolStripMenuItem.Text = "Táxi Pet"
-        '
-        'PlanoVIPToolStripMenuItem1
-        '
-        Me.PlanoVIPToolStripMenuItem1.Image = CType(resources.GetObject("PlanoVIPToolStripMenuItem1.Image"), System.Drawing.Image)
-        Me.PlanoVIPToolStripMenuItem1.Name = "PlanoVIPToolStripMenuItem1"
-        Me.PlanoVIPToolStripMenuItem1.Size = New System.Drawing.Size(205, 22)
-        Me.PlanoVIPToolStripMenuItem1.Text = "Plano VIP"
-        '
-        'DescontoPFuncionárioToolStripMenuItem
-        '
-        Me.DescontoPFuncionárioToolStripMenuItem.Image = CType(resources.GetObject("DescontoPFuncionárioToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.DescontoPFuncionárioToolStripMenuItem.Name = "DescontoPFuncionárioToolStripMenuItem"
-        Me.DescontoPFuncionárioToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.DescontoPFuncionárioToolStripMenuItem.Text = "Desconto p/ Funcionário"
         '
         'RelatóriosToolStripMenuItem
         '
@@ -269,28 +220,28 @@ Partial Class FormMainScreen
         '
         Me.RegistrarVendaToolStripMenuItem.Image = CType(resources.GetObject("RegistrarVendaToolStripMenuItem.Image"), System.Drawing.Image)
         Me.RegistrarVendaToolStripMenuItem.Name = "RegistrarVendaToolStripMenuItem"
-        Me.RegistrarVendaToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.RegistrarVendaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RegistrarVendaToolStripMenuItem.Text = "Registrar venda"
         '
         'ConsultarVendaToolStripMenuItem
         '
         Me.ConsultarVendaToolStripMenuItem.Image = CType(resources.GetObject("ConsultarVendaToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarVendaToolStripMenuItem.Name = "ConsultarVendaToolStripMenuItem"
-        Me.ConsultarVendaToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.ConsultarVendaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ConsultarVendaToolStripMenuItem.Text = "Consultar venda"
         '
         'ConsultarEstoqueToolStripMenuItem
         '
         Me.ConsultarEstoqueToolStripMenuItem.Image = CType(resources.GetObject("ConsultarEstoqueToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ConsultarEstoqueToolStripMenuItem.Name = "ConsultarEstoqueToolStripMenuItem"
-        Me.ConsultarEstoqueToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
+        Me.ConsultarEstoqueToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ConsultarEstoqueToolStripMenuItem.Text = "Consultar Estoque"
         '
         'RelatóriosToolStripMenuItem1
         '
         Me.RelatóriosToolStripMenuItem1.Image = CType(resources.GetObject("RelatóriosToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.RelatóriosToolStripMenuItem1.Name = "RelatóriosToolStripMenuItem1"
-        Me.RelatóriosToolStripMenuItem1.Size = New System.Drawing.Size(170, 22)
+        Me.RelatóriosToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.RelatóriosToolStripMenuItem1.Text = "Relatórios"
         '
         'EstoqueToolStripMenuItem
@@ -304,14 +255,14 @@ Partial Class FormMainScreen
         '
         Me.RecebimentoToolStripMenuItem.Image = CType(resources.GetObject("RecebimentoToolStripMenuItem.Image"), System.Drawing.Image)
         Me.RecebimentoToolStripMenuItem.Name = "RecebimentoToolStripMenuItem"
-        Me.RecebimentoToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.RecebimentoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RecebimentoToolStripMenuItem.Text = "Recebimento"
         '
         'RelatóriosToolStripMenuItem2
         '
         Me.RelatóriosToolStripMenuItem2.Image = CType(resources.GetObject("RelatóriosToolStripMenuItem2.Image"), System.Drawing.Image)
         Me.RelatóriosToolStripMenuItem2.Name = "RelatóriosToolStripMenuItem2"
-        Me.RelatóriosToolStripMenuItem2.Size = New System.Drawing.Size(144, 22)
+        Me.RelatóriosToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
         Me.RelatóriosToolStripMenuItem2.Text = "Relatórios"
         '
         'SistemaToolStripMenuItem
@@ -325,14 +276,14 @@ Partial Class FormMainScreen
         '
         Me.EditarUsuárioToolStripMenuItem.Image = CType(resources.GetObject("EditarUsuárioToolStripMenuItem.Image"), System.Drawing.Image)
         Me.EditarUsuárioToolStripMenuItem.Name = "EditarUsuárioToolStripMenuItem"
-        Me.EditarUsuárioToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
+        Me.EditarUsuárioToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EditarUsuárioToolStripMenuItem.Text = "Editar Usuário"
         '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Image = CType(resources.GetObject("SairToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
-        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
+        Me.SairToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
         'FormMainScreen
@@ -365,11 +316,6 @@ Partial Class FormMainScreen
     Friend WithEvents TaxiPetToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PacotesPromocionaisToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PlanoVIPToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BanhoETosaToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents ConsultaVeterinárioToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents TáxiPetToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PlanoVIPToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents DescontoPFuncionárioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultarPedidosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RelatóriosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AgendaVeterinárioToolStripMenuItem As ToolStripMenuItem
@@ -392,6 +338,5 @@ Partial Class FormMainScreen
     Friend WithEvents SistemaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EditarUsuárioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SairToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ProdutosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExamesToolStripMenuItem As ToolStripMenuItem
 End Class

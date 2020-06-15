@@ -61,34 +61,6 @@ Public Class FormMainScreen
         FormConsPedido.Show()
     End Sub
 
-    Private Sub ProdutosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProdutosToolStripMenuItem.Click
-        Dim FormDescProd = New FormDescontoProdutos()
-        FormDescProd.Show()
-    End Sub
-    Private Sub BanhoETosaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles BanhoETosaToolStripMenuItem1.Click
-        Dim FormDescBanho = New FormDescBanho()
-        FormDescBanho.Show()
-    End Sub
-
-    Private Sub ConsultaVeterinárioToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ConsultaVeterinárioToolStripMenuItem1.Click
-        Dim FormDescVet = New FormDescConsultaVeterinario()
-        FormDescVet.Show()
-    End Sub
-
-    Private Sub TáxiPetToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TáxiPetToolStripMenuItem.Click
-        Dim FormDescPet = New FormDescTaxiPet()
-        FormDescPet.Show()
-    End Sub
-
-    Private Sub PlanoVIPToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles PlanoVIPToolStripMenuItem1.Click
-        Dim FormDescVip = New FormDescPlanoVIP()
-        FormDescVip.Show()
-    End Sub
-    Private Sub DescontoPFuncionárioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DescontoPFuncionárioToolStripMenuItem.Click
-        Dim FormDescFunc = New FormDescFuncionario()
-        FormDescFunc.Show()
-    End Sub
-
     Private Sub RelatóriosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RelatóriosToolStripMenuItem.Click
         Dim FormRelatAtend = New FormRelatorioAtendimento()
         FormRelatAtend.Show()
@@ -145,5 +117,10 @@ Public Class FormMainScreen
     Private Sub ExamesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExamesToolStripMenuItem.Click
         Dim FormTabValExm = New FormTabPrecoExames()
         FormTabValExm.Show()
+    End Sub
+
+    Private Sub SolicitarDescontoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SolicitarDescontoToolStripMenuItem.Click
+        Dim FormSolDesc = New FormSolDesc()
+        FormSolDesc.Show()
     End Sub
 End Class
