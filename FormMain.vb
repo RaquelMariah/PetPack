@@ -1,7 +1,7 @@
 ﻿
 Public Class FormMainScreen
     Private Sub FormMainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ConnectToMySql()
+        ' ConnectToBd()
     End Sub
 
 
@@ -90,7 +90,7 @@ Public Class FormMainScreen
         FormConsVenda.Show()
     End Sub
     Private Sub ConsultarEstoqueToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarEstoqueToolStripMenuItem.Click
-        Dim FormConsEstoque = New FormConsultarVenda()
+        Dim FormConsEstoque = New FormConsultarEstoque()
         FormConsEstoque.Show()
     End Sub
 
