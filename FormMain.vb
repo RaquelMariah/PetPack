@@ -1,7 +1,7 @@
 ﻿
 Public Class FormMainScreen
     Private Sub FormMainScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' ConnectToBd()
+        carrega_banco()
     End Sub
 
 
@@ -122,5 +122,9 @@ Public Class FormMainScreen
     Private Sub SolicitarDescontoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SolicitarDescontoToolStripMenuItem.Click
         Dim FormSolDesc = New FormSolDesc()
         FormSolDesc.Show()
+    End Sub
+
+    Private Sub EmergencialToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmergencialToolStripMenuItem.Click
+
     End Sub
 End Class
