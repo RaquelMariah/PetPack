@@ -78,7 +78,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BD.vb" />
     <Compile Include="FormTabValorExames.Designer.vb">
       <DependentUpon>FormTabValorExames.vb</DependentUpon>
     </Compile>

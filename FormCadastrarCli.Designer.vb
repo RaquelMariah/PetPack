@@ -56,6 +56,8 @@ Partial Class FormCadastroCliente
         Me.txt_nome_cliente_cadast = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.cmbMaisPet = New System.Windows.Forms.ComboBox()
+        Me.Label32 = New System.Windows.Forms.Label()
         Me.cmb_adestrado_pet_cadast = New System.Windows.Forms.ComboBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.txt_altura_pet_cadast = New System.Windows.Forms.TextBox()
@@ -351,7 +353,7 @@ Partial Class FormCadastroCliente
         Me.dtp_nasc_cliente_cadast.Name = "dtp_nasc_cliente_cadast"
         Me.dtp_nasc_cliente_cadast.Size = New System.Drawing.Size(104, 20)
         Me.dtp_nasc_cliente_cadast.TabIndex = 4
-        Me.dtp_nasc_cliente_cadast.Value = New Date(1950, 12, 31, 0, 0, 0, 0)
+        Me.dtp_nasc_cliente_cadast.Value = New Date(2020, 6, 28, 0, 0, 0, 0)
         '
         'Label5
         '
@@ -435,6 +437,8 @@ Partial Class FormCadastroCliente
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.cmbMaisPet)
+        Me.TabPage2.Controls.Add(Me.Label32)
         Me.TabPage2.Controls.Add(Me.cmb_adestrado_pet_cadast)
         Me.TabPage2.Controls.Add(Me.Label15)
         Me.TabPage2.Controls.Add(Me.txt_altura_pet_cadast)
@@ -474,12 +478,31 @@ Partial Class FormCadastroCliente
         Me.TabPage2.Text = "Pet"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
+        'cmbMaisPet
+        '
+        Me.cmbMaisPet.AutoCompleteCustomSource.AddRange(New String() {"SSP", "Detran", "MTE", "DPF", "ABNC", "CGPI/DUREX/DPF", "CGPI", "CGPMAF", "CNIG", "COREN", "CRA", "CRAS", "CRB", "CRC", "FGTS", "SPTC", "OAB", "SECC", "POM", "(Outro)"})
+        Me.cmbMaisPet.FormattingEnabled = True
+        Me.cmbMaisPet.Items.AddRange(New Object() {"Sim", "Não"})
+        Me.cmbMaisPet.Location = New System.Drawing.Point(18, 38)
+        Me.cmbMaisPet.Name = "cmbMaisPet"
+        Me.cmbMaisPet.Size = New System.Drawing.Size(96, 21)
+        Me.cmbMaisPet.TabIndex = 71
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Location = New System.Drawing.Point(15, 22)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(115, 13)
+        Me.Label32.TabIndex = 70
+        Me.Label32.Text = "Possui mais de 1 Pet?*"
+        '
         'cmb_adestrado_pet_cadast
         '
         Me.cmb_adestrado_pet_cadast.AutoCompleteCustomSource.AddRange(New String() {"SSP", "Detran", "MTE", "DPF", "ABNC", "CGPI/DUREX/DPF", "CGPI", "CGPMAF", "CNIG", "COREN", "CRA", "CRAS", "CRB", "CRC", "FGTS", "SPTC", "OAB", "SECC", "POM", "(Outro)"})
         Me.cmb_adestrado_pet_cadast.FormattingEnabled = True
         Me.cmb_adestrado_pet_cadast.Items.AddRange(New Object() {"Sim", "Não", "N/E"})
-        Me.cmb_adestrado_pet_cadast.Location = New System.Drawing.Point(251, 257)
+        Me.cmb_adestrado_pet_cadast.Location = New System.Drawing.Point(251, 297)
         Me.cmb_adestrado_pet_cadast.Name = "cmb_adestrado_pet_cadast"
         Me.cmb_adestrado_pet_cadast.Size = New System.Drawing.Size(96, 21)
         Me.cmb_adestrado_pet_cadast.TabIndex = 26
@@ -487,7 +510,7 @@ Partial Class FormCadastroCliente
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(248, 242)
+        Me.Label15.Location = New System.Drawing.Point(248, 282)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(71, 13)
         Me.Label15.TabIndex = 68
@@ -495,7 +518,7 @@ Partial Class FormCadastroCliente
         '
         'txt_altura_pet_cadast
         '
-        Me.txt_altura_pet_cadast.Location = New System.Drawing.Point(139, 258)
+        Me.txt_altura_pet_cadast.Location = New System.Drawing.Point(139, 298)
         Me.txt_altura_pet_cadast.Name = "txt_altura_pet_cadast"
         Me.txt_altura_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_altura_pet_cadast.TabIndex = 25
@@ -503,7 +526,7 @@ Partial Class FormCadastroCliente
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(136, 242)
+        Me.Label28.Location = New System.Drawing.Point(136, 282)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(58, 13)
         Me.Label28.TabIndex = 66
@@ -514,7 +537,7 @@ Partial Class FormCadastroCliente
         Me.cmb_porte_pet_cadast.AutoCompleteCustomSource.AddRange(New String() {"SSP", "Detran", "MTE", "DPF", "ABNC", "CGPI/DUREX/DPF", "CGPI", "CGPMAF", "CNIG", "COREN", "CRA", "CRAS", "CRB", "CRC", "FGTS", "SPTC", "OAB", "SECC", "POM", "(Outro)"})
         Me.cmb_porte_pet_cadast.FormattingEnabled = True
         Me.cmb_porte_pet_cadast.Items.AddRange(New Object() {"Grande", "Médio", "Pequeno", "Micro/Toy", "N/E"})
-        Me.cmb_porte_pet_cadast.Location = New System.Drawing.Point(251, 152)
+        Me.cmb_porte_pet_cadast.Location = New System.Drawing.Point(251, 192)
         Me.cmb_porte_pet_cadast.Name = "cmb_porte_pet_cadast"
         Me.cmb_porte_pet_cadast.Size = New System.Drawing.Size(96, 21)
         Me.cmb_porte_pet_cadast.TabIndex = 20
@@ -522,7 +545,7 @@ Partial Class FormCadastroCliente
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(248, 137)
+        Me.Label18.Location = New System.Drawing.Point(248, 177)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(32, 13)
         Me.Label18.TabIndex = 64
@@ -533,7 +556,7 @@ Partial Class FormCadastroCliente
         Me.cmb_sexo_pet_cadast.AutoCompleteCustomSource.AddRange(New String() {"SSP", "Detran", "MTE", "DPF", "ABNC", "CGPI/DUREX/DPF", "CGPI", "CGPMAF", "CNIG", "COREN", "CRA", "CRAS", "CRB", "CRC", "FGTS", "SPTC", "OAB", "SECC", "POM", "(Outro)"})
         Me.cmb_sexo_pet_cadast.FormattingEnabled = True
         Me.cmb_sexo_pet_cadast.Items.AddRange(New Object() {"Macho", "Fêmea", "N/E"})
-        Me.cmb_sexo_pet_cadast.Location = New System.Drawing.Point(136, 101)
+        Me.cmb_sexo_pet_cadast.Location = New System.Drawing.Point(136, 141)
         Me.cmb_sexo_pet_cadast.Name = "cmb_sexo_pet_cadast"
         Me.cmb_sexo_pet_cadast.Size = New System.Drawing.Size(96, 21)
         Me.cmb_sexo_pet_cadast.TabIndex = 16
@@ -541,7 +564,7 @@ Partial Class FormCadastroCliente
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(133, 84)
+        Me.Label14.Location = New System.Drawing.Point(133, 124)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(34, 13)
         Me.Label14.TabIndex = 62
@@ -549,14 +572,14 @@ Partial Class FormCadastroCliente
         '
         'txt_idade_pet_cadast
         '
-        Me.txt_idade_pet_cadast.Location = New System.Drawing.Point(136, 153)
+        Me.txt_idade_pet_cadast.Location = New System.Drawing.Point(136, 193)
         Me.txt_idade_pet_cadast.Name = "txt_idade_pet_cadast"
         Me.txt_idade_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_idade_pet_cadast.TabIndex = 19
         '
         'txt_cor_pet_cadast
         '
-        Me.txt_cor_pet_cadast.Location = New System.Drawing.Point(251, 101)
+        Me.txt_cor_pet_cadast.Location = New System.Drawing.Point(251, 141)
         Me.txt_cor_pet_cadast.Name = "txt_cor_pet_cadast"
         Me.txt_cor_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_cor_pet_cadast.TabIndex = 17
@@ -564,7 +587,7 @@ Partial Class FormCadastroCliente
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(248, 84)
+        Me.Label21.Location = New System.Drawing.Point(248, 124)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(94, 13)
         Me.Label21.TabIndex = 59
@@ -572,7 +595,7 @@ Partial Class FormCadastroCliente
         '
         'txt_raca_pet_cadast
         '
-        Me.txt_raca_pet_cadast.Location = New System.Drawing.Point(18, 101)
+        Me.txt_raca_pet_cadast.Location = New System.Drawing.Point(18, 141)
         Me.txt_raca_pet_cadast.Name = "txt_raca_pet_cadast"
         Me.txt_raca_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_raca_pet_cadast.TabIndex = 15
@@ -580,7 +603,7 @@ Partial Class FormCadastroCliente
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(15, 84)
+        Me.Label20.Location = New System.Drawing.Point(15, 124)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(36, 13)
         Me.Label20.TabIndex = 57
@@ -588,7 +611,7 @@ Partial Class FormCadastroCliente
         '
         'txt_tipo_pet_cadast
         '
-        Me.txt_tipo_pet_cadast.Location = New System.Drawing.Point(251, 51)
+        Me.txt_tipo_pet_cadast.Location = New System.Drawing.Point(251, 91)
         Me.txt_tipo_pet_cadast.Name = "txt_tipo_pet_cadast"
         Me.txt_tipo_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_tipo_pet_cadast.TabIndex = 14
@@ -596,7 +619,7 @@ Partial Class FormCadastroCliente
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(248, 34)
+        Me.Label27.Location = New System.Drawing.Point(248, 74)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(80, 13)
         Me.Label27.TabIndex = 55
@@ -607,7 +630,7 @@ Partial Class FormCadastroCliente
         Me.carrega_foto_pet.BackgroundImage = CType(resources.GetObject("carrega_foto_pet.BackgroundImage"), System.Drawing.Image)
         Me.carrega_foto_pet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.carrega_foto_pet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.carrega_foto_pet.Location = New System.Drawing.Point(365, 51)
+        Me.carrega_foto_pet.Location = New System.Drawing.Point(365, 22)
         Me.carrega_foto_pet.Name = "carrega_foto_pet"
         Me.carrega_foto_pet.Size = New System.Drawing.Size(120, 111)
         Me.carrega_foto_pet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -616,7 +639,7 @@ Partial Class FormCadastroCliente
         '
         'txt_obs_pet_cadast
         '
-        Me.txt_obs_pet_cadast.Location = New System.Drawing.Point(18, 298)
+        Me.txt_obs_pet_cadast.Location = New System.Drawing.Point(18, 338)
         Me.txt_obs_pet_cadast.Name = "txt_obs_pet_cadast"
         Me.txt_obs_pet_cadast.Size = New System.Drawing.Size(329, 20)
         Me.txt_obs_pet_cadast.TabIndex = 27
@@ -624,7 +647,7 @@ Partial Class FormCadastroCliente
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(15, 281)
+        Me.Label16.Location = New System.Drawing.Point(15, 321)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(32, 13)
         Me.Label16.TabIndex = 48
@@ -632,7 +655,7 @@ Partial Class FormCadastroCliente
         '
         'txt_peso_pet_cadast
         '
-        Me.txt_peso_pet_cadast.Location = New System.Drawing.Point(18, 258)
+        Me.txt_peso_pet_cadast.Location = New System.Drawing.Point(18, 298)
         Me.txt_peso_pet_cadast.Name = "txt_peso_pet_cadast"
         Me.txt_peso_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_peso_pet_cadast.TabIndex = 24
@@ -640,7 +663,7 @@ Partial Class FormCadastroCliente
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(15, 242)
+        Me.Label17.Location = New System.Drawing.Point(15, 282)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(53, 13)
         Me.Label17.TabIndex = 46
@@ -649,7 +672,7 @@ Partial Class FormCadastroCliente
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(133, 137)
+        Me.Label19.Location = New System.Drawing.Point(133, 177)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(90, 13)
         Me.Label19.TabIndex = 42
@@ -658,7 +681,7 @@ Partial Class FormCadastroCliente
         'dtp_nasc_pet_cadast
         '
         Me.dtp_nasc_pet_cadast.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtp_nasc_pet_cadast.Location = New System.Drawing.Point(18, 154)
+        Me.dtp_nasc_pet_cadast.Location = New System.Drawing.Point(18, 194)
         Me.dtp_nasc_pet_cadast.MaxDate = New Date(9950, 12, 31, 0, 0, 0, 0)
         Me.dtp_nasc_pet_cadast.MinDate = New Date(1950, 12, 31, 0, 0, 0, 0)
         Me.dtp_nasc_pet_cadast.Name = "dtp_nasc_pet_cadast"
@@ -669,7 +692,7 @@ Partial Class FormCadastroCliente
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(15, 137)
+        Me.Label22.Location = New System.Drawing.Point(15, 177)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(107, 13)
         Me.Label22.TabIndex = 36
@@ -680,7 +703,7 @@ Partial Class FormCadastroCliente
         Me.cmb_microchip_pet_cadast.AutoCompleteCustomSource.AddRange(New String() {"SSP", "Detran", "MTE", "DPF", "ABNC", "CGPI/DUREX/DPF", "CGPI", "CGPMAF", "CNIG", "COREN", "CRA", "CRAS", "CRB", "CRC", "FGTS", "SPTC", "OAB", "SECC", "POM", "(Outro)"})
         Me.cmb_microchip_pet_cadast.FormattingEnabled = True
         Me.cmb_microchip_pet_cadast.Items.AddRange(New Object() {"Sim", "Não"})
-        Me.cmb_microchip_pet_cadast.Location = New System.Drawing.Point(136, 207)
+        Me.cmb_microchip_pet_cadast.Location = New System.Drawing.Point(136, 247)
         Me.cmb_microchip_pet_cadast.Name = "cmb_microchip_pet_cadast"
         Me.cmb_microchip_pet_cadast.Size = New System.Drawing.Size(96, 21)
         Me.cmb_microchip_pet_cadast.TabIndex = 22
@@ -688,7 +711,7 @@ Partial Class FormCadastroCliente
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(133, 190)
+        Me.Label23.Location = New System.Drawing.Point(133, 230)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(93, 13)
         Me.Label23.TabIndex = 34
@@ -696,7 +719,7 @@ Partial Class FormCadastroCliente
         '
         'txt_rgcua_pet_cadast
         '
-        Me.txt_rgcua_pet_cadast.Location = New System.Drawing.Point(18, 207)
+        Me.txt_rgcua_pet_cadast.Location = New System.Drawing.Point(18, 247)
         Me.txt_rgcua_pet_cadast.Mask = "99,999,999-9"
         Me.txt_rgcua_pet_cadast.Name = "txt_rgcua_pet_cadast"
         Me.txt_rgcua_pet_cadast.Size = New System.Drawing.Size(96, 20)
@@ -706,7 +729,7 @@ Partial Class FormCadastroCliente
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(15, 190)
+        Me.Label24.Location = New System.Drawing.Point(15, 230)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(53, 13)
         Me.Label24.TabIndex = 32
@@ -714,7 +737,7 @@ Partial Class FormCadastroCliente
         '
         'txt_nmicrochip_pet_cadast
         '
-        Me.txt_nmicrochip_pet_cadast.Location = New System.Drawing.Point(253, 206)
+        Me.txt_nmicrochip_pet_cadast.Location = New System.Drawing.Point(253, 246)
         Me.txt_nmicrochip_pet_cadast.Name = "txt_nmicrochip_pet_cadast"
         Me.txt_nmicrochip_pet_cadast.Size = New System.Drawing.Size(96, 20)
         Me.txt_nmicrochip_pet_cadast.TabIndex = 23
@@ -723,7 +746,7 @@ Partial Class FormCadastroCliente
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(250, 190)
+        Me.Label25.Location = New System.Drawing.Point(250, 230)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(71, 13)
         Me.Label25.TabIndex = 30
@@ -731,7 +754,7 @@ Partial Class FormCadastroCliente
         '
         'txt_nome_pet_cadast
         '
-        Me.txt_nome_pet_cadast.Location = New System.Drawing.Point(18, 51)
+        Me.txt_nome_pet_cadast.Location = New System.Drawing.Point(18, 91)
         Me.txt_nome_pet_cadast.Name = "txt_nome_pet_cadast"
         Me.txt_nome_pet_cadast.Size = New System.Drawing.Size(217, 20)
         Me.txt_nome_pet_cadast.TabIndex = 13
@@ -739,7 +762,7 @@ Partial Class FormCadastroCliente
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(15, 34)
+        Me.Label26.Location = New System.Drawing.Point(15, 74)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(72, 13)
         Me.Label26.TabIndex = 28
@@ -1046,4 +1069,6 @@ Partial Class FormCadastroCliente
     Friend WithEvents btn_salvar_cliente_cadast As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents OpenFileDialog2 As OpenFileDialog
+    Friend WithEvents Label32 As Label
+    Friend WithEvents cmbMaisPet As ComboBox
 End Class
